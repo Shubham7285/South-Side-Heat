@@ -908,7 +908,7 @@ function fetch_environement_from_wpengine_api() {
 }
 
 // Hook to run fetch_environement_from_wpengine_api function on init
-add_action('init', 'fetch_environement_from_wpengine_api');
+// add_action('init', 'fetch_environement_from_wpengine_api');
 
 
 // Function to customize notification email for Gravity Forms
